@@ -29,3 +29,8 @@ function changeArticleSubmit(type) {
             break;
     }
 }
+
+function backToTop() {
+    let url = location.protocol + "//" + location.host;
+    location.href = url;
+}
